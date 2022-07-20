@@ -1,0 +1,19 @@
+//bloque
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $colorFondo2;
+    margin-top: 0 auto;
+    padding: 20px;
+    background-image: $gradiente;
+    
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+}

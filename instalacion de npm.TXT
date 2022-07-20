@@ -1,0 +1,18 @@
+1er paso:
+npm install nodemon node-sass
+2do paso:
+npm init
+3er paso:
+package.json
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+4to paso:
+crear carpetas y archivos: css/style.css scss/main.scss"
+5to paso:
+npm run build-css
+y 
+npm run watch-css
+

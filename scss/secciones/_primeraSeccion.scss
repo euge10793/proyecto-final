@@ -1,0 +1,36 @@
+.primeraSeccion {
+    grid-area: primeraSeccion;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0 auto;
+    padding: 20px;
+    animation-name: primeraAnimacion;
+    animation-duration: 10s;
+    background-color: $colorFondo2;
+    p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 70px;
+        .primeraSeccion__h2 {
+            font-size: 2rem;
+            margin-top: 0 auto;
+            max-width: 450px;
+            text-align: center;
+        }
+    }
+}
+
+
+.primeraSeccion button:hover {
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+
+    .primeraSeccion__button {
+        padding: .5rem;
+        margin: 1rem;
+    }
+}

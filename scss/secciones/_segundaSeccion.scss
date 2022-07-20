@@ -1,0 +1,21 @@
+.segundaSeccion {
+    grid-area: segundaSeccion;
+    display: flex;
+    flex-direction: column;
+    background-color: $colorFondo2;
+    margin-top: 0 auto;
+    .h3 {
+        padding-left: 50px
+        
+    }
+}
+
+.segundaSeccion p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0 auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
